@@ -1,0 +1,47 @@
+.navbar {
+  position: sticky !important;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  padding: 10px 0;
+}
+.nav-item{
+  font-family: Poppins;
+  font-weight: Medium;
+  font-size: 20px;
+  margin-right: 3.5rem;
+
+}
+.nav-active-line{
+  width: 60%;
+  height: 3px;
+  background-color: var(--color-lemon-2);
+}
+a {
+  text-decoration: none !important;
+  color: #fff;
+  
+}
+a:hover{
+  color: #fff;
+}
+.max-right{
+  width: max-content;
+  margin-left: auto;
+}
+nav .navbar-nav li a {
+  color: #fff !important;
+}
+nav .navbar.bg-dark.navbar-bg-color {
+  color: #000 !important;
+}
+.nav-link {
+  font-size: 1.6rem;
+  padding-left: 0 !important;
+  padding-bottom: 0 !important;
+  
+}
+
+#navbarSupportedContent {
+  margin-left: 30px;
+}

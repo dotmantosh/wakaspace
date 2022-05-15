@@ -1,0 +1,50 @@
+:root {
+  --color-lemon-1: #9cff00;
+  --color-lemon-2: #b9ef20;
+  --color-orangered: #e84141;
+  --color-brown: #f87e31;
+  --color-dark: #212529;
+
+  --color1: rgb(0, 231, 255);
+  --color2: rgb(255, 0, 231);
+  --charizard1: #fac;
+  --charizard2: #ddccaa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Jura", sans-serif;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #fff;
+  background-color: #000;
+}
+.p_relative {
+  position: relative;
+}
+.headings {
+  color: var(--color-lemon-1);
+  font-family: "Play";
+  font-weight: Bold;
+  font-size: 100px;
+  line-height: 148px;
+  text-shadow: 0px 5px 0px rgba(0, 0, 0), 0px 6px 0px rgb(255, 255, 255);
+}
+
+/* animation */
+
+/* .fadeIn{
+  opacity: 1;
+} */

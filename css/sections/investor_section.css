@@ -1,0 +1,119 @@
+.investor {
+  padding-top: 10rem;
+  background-color: #000;
+  z-index: 1;
+}
+.investor-content{
+  padding-top: 8rem;
+  padding-left: 69px;
+}
+.investor-heading {
+  font-family: "Play";
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 35px;
+  text-align: center;
+}
+.investor-hr {
+  width: 99px;
+  height: 7px;
+  background-color: var(--color-lemon-2);
+  clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.investor-img{
+  position: relative;
+  width: max-content;
+  cursor: pointer;
+}
+.investor-img:hover .inv-colored{
+  opacity: 1;
+  transform: scale(1.10);
+}
+.investor-img:hover img:last-of-type{
+  opacity: 0;
+  transition: all .5s ease-out;
+}
+.investor-img img{
+  transition: all .5s ease-out;
+}
+
+.whey-gamer{
+  width: max-content;
+  margin: auto;
+  padding-bottom: 3rem;
+  position: relative;
+}
+
+/* .whey-gamer img{
+  padding-left: 5px;
+  
+} */
+
+.inv-colored{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 240px;
+  display: block;
+  opacity: 0;
+  transition: all .5s ease-out;
+}
+
+.whey-gamer-colored{
+  position: absolute;
+  top: 20px;
+  left: 18px;
+  display: block;
+}
+
+#asia{
+  position: absolute;
+  width: 237px;
+  top: 32px;
+  left: 6px;
+}
+
+#gajah{
+  position: absolute;
+  width: 245px;
+  top: -34px;
+  left: 40px;
+}
+
+#two-monk{
+  position: absolute;
+  width: 241px;
+  top: -4px;
+  left: 46px;
+}
+
+#decentra{
+  position: absolute;
+  width: 177px;
+  top: 21px;
+  left: 36px;
+}
+
+#gajah2{
+  position: absolute;
+  width: 179px;
+  top: 46px;
+  left: 68px;
+}
+
+#c{
+  position: absolute;
+  width: 176px;
+  top: 30px;
+  left: 72px;
+}
+
+#whey{
+  position: absolute;
+  width: 234px;
+  top: 34px;
+  left: 51px;
+}

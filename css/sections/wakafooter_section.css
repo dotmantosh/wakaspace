@@ -1,0 +1,79 @@
+.wakafooter {
+  background-image: url("../../assets/imgs/wak.jpeg");
+  min-height: 882px;
+  /* padding-top: 4rem; */
+  background-size: 100%;
+}
+
+.wakafooter-content{
+  max-width: 100rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+.wakafooter-links{
+  font-size: 2.5rem;
+  list-style: none !important;
+  padding: 0;
+  color: #fff;
+  margin-top: 4.8rem;
+}
+.wakafooter-links.footer-link-middle{
+  padding-left: 100px;
+}
+
+.wakafooter-heading{
+  font-family: "Play";
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 35px;
+  margin-top: 10rem;
+}
+.wakafooter-heading li{
+  font-family: "Jura";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.footer-links-bottom{
+  margin-top: 5rem;
+}
+.footer-links-bottom ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Jura";
+  font-weight: Regular;
+  font-size: 20px;
+  padding-left: 0;
+}
+.footer-links-bottom ul li{
+  padding-left: 3rem;
+  margin-left: 2rem;
+}
+.footer-links-bottom ul li:first-of-type{
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.wakafooter-socials {
+  width: max-content;
+  margin: 0 auto;
+  margin-top: 8.4rem;
+}
+
+.wakafooter-socials a{
+  margin-right: 3.5rem;
+}
+
+.wakafooter-join {
+  font-family: "Space Mono";
+  font-style: 400;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 5.2rem;
+}
+
+
+

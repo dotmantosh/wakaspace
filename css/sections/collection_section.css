@@ -1,0 +1,122 @@
+.collection {
+  padding-top: 10rem;
+  position: relative;
+}
+
+.collection_heading{
+  opacity: 0;
+  margin-bottom: 40px;
+}
+
+.collection_description {
+  position: relative;
+  height: 50px;
+}
+
+
+.collection_description p {
+  text-align: right;
+  font-family: Jura;
+  font-weight: 400;
+  font-size: 2.8rem;
+  line-height: 30px;
+  padding-top: 3.5rem;
+  width: 90%;
+  opacity: 0;
+  z-index: 2 !important;
+}
+
+.collection-img {
+  position: absolute;
+  top: 180px;
+  right: 335px;
+  width: 500px;
+  z-index: 0;
+  
+}
+
+.collection-hero-img{
+  position: absolute;
+  top: 180px;
+  right: 335px;
+  width: 500px;
+  height: 500px;
+
+  background-image: url('../../assets/imgs/hybrid.gif');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* .glitch-img {
+  position: absolute; 
+  width: 300px;
+  height: 400px;
+  max-height: 400px;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  background-position:center;  
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -webkit-background-size:cover;
+  background-size:cover;
+  opacity : 1
+}  */
+
+.collection_right {
+  padding-top: 23rem;
+  opacity: 0; 
+}
+
+.collection_name {
+  font-family: "Play";
+  font-weight: Bold;
+  font-size: 11rem;
+  line-height: 85px;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--color-lemon-1);
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.collection-collections {
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-7.5rem);
+  opacity: 0;
+}
+
+.collection-imgs {
+  width: 15.9%;
+  cursor: pointer;
+  transition: 0.2s all ease-out;
+}
+
+/* .collection-imgs:hover {
+  transform: translateY(-5px);
+} */
+
+.collection-imgs img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* .collection-imgs img:last-of-type{
+  display: none;
+} */
+
+.collection-selected{
+  transform: translateY(-30px);
+}
+
+/* .collection-selected img:first-child{
+  display: none !important;
+}
+
+.collection-selected img:last-of-type{
+  display: block;
+  height: 100%;
+} */

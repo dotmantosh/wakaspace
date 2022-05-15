@@ -1,0 +1,133 @@
+.project{
+  position: relative;
+}
+.project__imgs {
+  display: flex;
+  align-items: center;
+  padding-top: 9rem;
+  transform: translateX(-20%);
+}
+
+.first_rectangle_div {
+  transform: translateX(50%);
+  height: 677px;
+  transition: all .5s ease-out;
+  cursor: pointer;
+}
+.first_rectangle{
+  width: 235px;
+  height: 90%;
+  opacity: 1;
+}
+
+.second_rectangle_div {
+  position: relative;
+  transform: translateX(0%);
+  z-index: 1;
+  height: 710px;
+  transition: all .5s ease-out;
+  cursor: pointer;
+}
+.second_rectangle{
+  width: 235px;
+  height: 90%;
+}
+
+.third_rectangle_div {
+  position: relative;
+  transform: translateX(-50%);
+  height: 677px;
+  transition: all .5s ease-out;
+  cursor: pointer;
+}
+.third_rectangle{
+  width: 235px;
+  height: 90%;
+  opacity: 1;
+}
+
+.fourth_rectangle_div {
+  position: relative;
+  transform: translateX(-200%);
+  height: 677px;
+  transition: all .5s ease-out;
+  cursor: pointer;
+}
+
+.fourth_rectangle{
+  width: 235px;
+  height: 90%;
+}
+
+.rec-img-mid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: all .5s ease-out;
+}
+
+.project_heading {
+  text-align: right;
+  opacity: 0;
+}
+
+.rectangle-126 {
+  position: absolute;
+  right: -104px;
+}
+
+.project-right-content{
+  position: relative;
+  height: 800px;
+}
+
+.project-heading-h3 {
+  font-family: "Play";
+  font-weight: Bold;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: Right;
+  margin-top: 3.8rem;
+  opacity: 0;
+  transition: all .5s ease-out;
+}
+
+.project_description {
+  text-align: right;
+  margin-top: 3rem;
+  font-size: 23px;
+  line-height: 33px;
+  opacity: 0;
+  transition: all .5s ease-out;
+}
+
+.project-line {
+  margin: 0 auto;
+  display: flex;
+  width: max-content;
+  /* transform: translateX(100px);
+  margin-top: 200px; */
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(30%);
+}
+
+.dotted {
+  width: 15px;
+  height: 15px;
+  background-color: var(--color-lemon-1);
+  border-radius: 100%;
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+
+.str {
+  width: 55px;
+  height: 15px;
+  background-color: var(--color-lemon-1);
+  border-radius: 20px;
+  margin-right: 1.5rem;
+}

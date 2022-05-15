@@ -1,0 +1,56 @@
+.about-project-collection {
+  position: relative;
+}
+.about-project-collection {
+  background-image: url("../../assets/imgs/background_about_to_tokenomics\ 2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about {
+  padding-top: 192px;
+  position: relative;
+}
+.wakalogo_img {
+  position: absolute;
+  top: -120px;
+  left: 0;
+}
+.about__heading {
+  color: var(--color-lemon-1);
+  font-family: "Play";
+  font-weight: Bold;
+  font-size: 100px;
+  line-height: 148px;
+  text-shadow: 0px 5px 0px rgba(0, 0, 0), 0px 6px 0px rgb(255, 255, 255);
+  opacity: 0; 
+}
+.about__heading--2 {
+  font-family: "Play";
+  font-weight: Bold;
+  font-size: 5rem;
+  line-height: 55px;
+  text-align: Right;
+  opacity: 0; 
+}
+.about__heading--2 span {
+  color: var(--color-orangered);
+}
+
+.about__description {
+  font-family: "Jura";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 2.5rem;
+  text-align: right;
+  margin-top: 4rem;
+  opacity: 0; 
+}
+
+.about-hr {
+  width: 29.5rem;
+  height: 0.8rem;
+  border-radius: 20px;
+  background-color: var(--color-lemon-2);
+  margin-top: 4rem;
+}

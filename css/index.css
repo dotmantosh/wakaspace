@@ -1,0 +1,32 @@
+@import url("base.css");
+@import url("./sections/navbar.css");
+@import url("./sections/home_section.css");
+@import url("./sections/wakaspace_section.css");
+@import url("./sections/about_section.css");
+@import url("./sections/project_section.css");
+@import url("./sections/collection_section.css");
+@import url("./sections/features_section.css");
+@import url("./sections/tokenomics_section.css");
+@import url("./sections/roadmap_section.css");
+@import url("./sections/team_section.css");
+@import url("./sections/investor_section.css");
+@import url("./sections/wakafooter_section.css");
+@import url("./animations/animations_section.css");
+@import url("./teamCarousel/teamCarousel.css");
+
+
+.btn-style {
+  border: 3px solid var(--color-lemon-1);
+  color: #fff;
+  border-radius: 10px;
+  background-color: #000;
+  min-width: 206px;
+  height: 64px;
+  font-size: 1.8rem;
+  font-weight: 600 !important;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+

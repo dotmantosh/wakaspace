@@ -1,0 +1,251 @@
+.tokenomics {
+  padding-top: 10rem;
+  padding-bottom: 50rem;
+  position: relative;
+  height: 125rem;
+}
+
+
+
+.tokenomics_header {
+  max-width: 80rem;
+  padding: 4rem 0;
+  background-color: var(--color-lemon-1);
+  clip-path: polygon(0 0, 94% 0, 100% 30%, 100% 100%, 0% 100%, 0 100%);
+}
+
+.tokenomics_heading {
+  text-align: center;
+  font-family: "Play";
+  font-weight: Bold;
+  font-size: 100px;
+  color: #000;
+  opacity: 0;
+}
+
+.tokenomics-hr {
+  width: 40rem;
+  height: 9px;
+  background-color: var(--color-lemon-1);
+  border-radius: 20px;
+  margin-top: 2.5rem;
+}
+
+.tokenomics-description {
+  max-width: 48rem;
+  font-family: "Jura";
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 30px;
+  margin-top: 4rem;
+  z-index: 1;
+  opacity: 0;
+  margin-bottom: 20rem;
+}
+
+.tokenomics-asset {
+  position: absolute;
+  top: 25%;
+  font-family: "Jura";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  opacity: 0;
+  width: max-content;
+  transition: all 1s ease-out;
+  
+}
+.tokenomics-asset-p{
+  font-family: "Jura";
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.ring{
+  position: relative;
+  /* background-color: #000; */
+  cursor: pointer;
+  z-index: 2;
+  /* background-color: red; */
+}
+
+.ring:hover .selected{
+  opacity: 1;
+}
+
+
+
+.top-ring .tokenomics-asset{
+  left: 160px;
+}
+
+.top-right-ring .tokenomics-asset{
+  left: 150px;
+}
+.bottom-right-ring .tokenomics-asset{
+  left: 150px;
+}
+.bottom-ring .tokenomics-asset{
+  right: -340px;
+  top: 90px;
+}
+.bottom-left-ring .tokenomics-asset{
+  right: 150px;
+  text-align: right;
+}
+
+.top-left-ring .tokenomics-asset{
+  right: 150px;
+  text-align: right;
+}
+
+.tokenomics-rings {
+  position: absolute;
+  /* background-color: rgb(40, 151, 12); */
+  width: 700px;
+  height: 700px;
+  bottom: 85px;
+  left: 46%;
+  transform: translateX(-42%);
+}
+
+.center-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.compass{
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  margin: 0 auto;
+  height: 68%;
+  /* transform: translateX(-50%); */
+  transform-origin: bottom;
+  transition: all 1s ease;
+}
+
+.compass-top{
+  top: -25px;
+  left: 41%;
+  /* transform: translateX(-50%) rotate(0deg); */
+  transform: rotate(0deg);
+}
+
+.compass-top-right{
+  top: -40px;
+  left: 30%;
+  transform: /* translateX(-50%) */ rotate(60deg);
+}
+.compass-bottom-right{
+  top: -93px;
+  left: 30%;
+  transform: /* translateX(-50%) */ rotate(120deg);
+}
+.compass-bottom{
+  top: -120px;
+  left: 42%;
+  transform: /* translateX(-50%) */ rotate(180deg);
+}
+.compass-bottom-left{
+  top: -97px;
+  left: 54%;
+  transform: /* translateX(-50%) */ rotate(240deg);
+}
+
+.compass-top-left{
+  top: -45px;
+  left: 54%;
+  transform: /* translateX(-50%) */ rotate(300deg);
+}
+
+.unselected{
+  opacity: 1;
+  
+}
+.selected{
+  position: absolute;
+  /* top: -352px;
+  left: -204px; */
+  /* top: -351px;
+  left: -369px; */
+  top: -10px;
+  left: -10px;
+  opacity: 0;
+  z-index: 0;
+  transition: all .8s ease-out;
+}
+
+.maskgrp{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+/* .ring:hover .unselected{
+  opacity: 0;
+} */
+
+
+/* .glowring{
+  top: -351px;
+  left: -369px;
+  opacity: 1;
+} */
+.ring-clicked{
+  opacity: 1;
+}
+
+
+.top-ring {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bottom-ring {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.top-left-ring {
+  position: absolute;
+  top: 20%;
+  left: 0;
+}
+
+.top-right-ring {
+  position: absolute;
+  top: 20%;
+  right: 0;
+}
+
+.bottom-left-ring {
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+}
+
+.bottom-right-ring {
+  position: absolute;
+  bottom: 20%;
+  right: 0;
+}
+
+.ring-inner-img {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 57px;
+  height: 41px;
+}

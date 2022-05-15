@@ -1,0 +1,147 @@
+.features {
+  padding: 2.5rem 0;
+  padding-bottom: 45rem;
+  position: relative;
+}
+.feature_img {
+  position: absolute;
+  bottom: -145px;
+  z-index: 5;
+  height: 1100px;
+  animation: moveUpDown 3s linear infinite ;
+}
+.feature_img img {
+  height: 100%;
+}
+.features_content {
+  max-width: 77rem;
+  height: 82.9rem;
+  /* background-color: var(--color-lemon-2); */
+  margin-left: auto;
+  margin-right: 30px;
+  margin-top: 33px;
+  position: relative;
+  /* clip-path: polygon(2% 0, 100% 0, 100% 100%, 0 100%, 0 2%); */
+}
+
+.panel{
+  width: 100%;
+  height: 100%;
+}
+
+.kotak {
+  transform: translate(30px, -20px);
+  position: absolute;
+  top: -10px;
+  right: 1px;
+  z-index: 1;
+}
+
+.features_content_item {
+  position: absolute;
+  top: 2rem;
+  left: 10rem;
+  z-index: 2;
+}
+
+.features_content_item h3 {
+  font-family: "Play";
+  font-weight: Bold;
+  font-size: 100px;
+  line-height: 110px;
+  color: var(--color-lemon-2);
+  opacity: 0;
+}
+
+.features_latency {
+  display: flex;
+  margin-top: 2.2rem;
+  
+}
+
+.latency_btn {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-lemon-2);
+
+
+  color: #000;
+  width: 30rem;
+  padding-left: 2.6rem;
+  border-radius: 10px;
+}
+
+.latency_btn p {
+  font-family: "Jura";
+  font-size: 2rem;
+  margin-left: 3rem; 
+  font-weight: 700;
+  line-height: 18px;
+  color: #000;
+}
+
+.latency_description {
+  font-family: "Jura";
+  width: 26rem;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  margin-left: 2.2rem;
+  color: var(--color-lemon-1);
+  opacity: 0;
+}
+
+.features_content_features {
+  display: flex;
+  align-items: center;
+  width: 30rem;
+  min-height: 75px;
+  border-radius: 10px;
+  padding: 7px 20px;
+  cursor: pointer;
+  transform: all .5s ease-out;
+}
+.features_content_features:hover{
+  border: 2px solid var(--color-lemon-1);
+}
+
+.feat_cont_img{
+  position: relative;
+}
+
+.feat_cont_img img:last-of-type{
+  opacity: 0;
+  position: absolute;
+  /* top: -28px; */
+  left: 0;
+}
+.feat_cont_img img{
+  width: 54px;
+}
+
+.latency_btn img:first-of-type{
+  opacity: 0;
+}
+
+.latency_btn img:last-of-type{
+  opacity: 1;
+}
+
+.feat_cont_p {
+  margin-left: 3.2rem;
+  font-weight: Bold;
+  font-size: 20px;
+  line-height: 18px;
+  color: var(--color-lemon-2);
+}
+
+
+.latency_description_selected{
+  opacity: 1;
+}
+
+@keyframes moveUpDown {
+  0%,100%{transform: translateY(-10px);}
+  50% {transform: translateY(10px);}
+  
+}
